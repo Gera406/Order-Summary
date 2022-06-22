@@ -29,64 +29,64 @@ body{
 }
 
 .Summary{
-    width: 450px;
-    height: 700px;
+    width: 315px;
+    height: 490px;
     background-color: #fff;
-    margin: 100px auto;
+    margin: 50px auto;
     border-radius: 20px;
 }
 
 .image img{
     width: 100%;
-    height: 225px;
+    height: 160px;
     background-size: cover;
     background-position: center;
     border-radius: 20px 20px 0 0;
 }
 
 .Summary h1{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 900;
     color: #18223E;
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 5px;
+    padding: 12px;
 }
 
 .Summary p {
     font-weight: 400;
     color: var(--Desaturatedblue);
-    padding: 0 60px;
-    font-size: 20px;
-    line-height: 30px;
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .anual_plan{
     background-color: var(--Verypaleblue);
-    margin:40px 40px;
+    margin:20px 20px;
     text-align: left;
     border-radius: 15px;
     display: inline-flex;
-    width: 370px;
+    width: 260px;
     
 }
 
 .icono img {
     position: absolute;
-    padding: 15px;
+    padding: 12px;
     margin: 0 auto;
+    width: 40px;
 }
 
 .text{
     margin-left: 60px;
-    margin-right: 60px;
     padding: 10px;
     display: inline-block;
 }
 
 .text h2{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
-    padding: 5px;
+    padding: 2px;
    
 }
 
@@ -94,21 +94,23 @@ body{
 .text span {
     font-weight: 300;
     color: var(--Desaturatedblue);
+    font-size: 14px;
 }
 
 .link{
-    padding: 10px;
-    margin: 20px;
+    padding: 7px;
+    margin: 14px;
     color: var(--Brightblue);
     font-weight: 700;
+    font-size: 13px;
     
 }
 
 .accept{
     background-color: var(--Brightblue);
     margin: 0 30px 0 30px;
-    padding: 15px 100px;
-    font-size: 16px;
+    padding: 15px 50px;
+    font-size: 12px;
     font-family: 'Outfit', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
@@ -127,11 +129,11 @@ body{
 .cancel{
     background: none;
     border: none;
-    margin: 30px;
+    margin: 15px;
     font-family: 'Outfit', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--Desaturatedblue);
     cursor: pointer;
 }
